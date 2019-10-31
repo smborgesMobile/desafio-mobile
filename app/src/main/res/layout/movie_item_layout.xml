@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/main_screen_thumb_image"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:src="@drawable/thum_test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_screen_txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Maze Runner: The Death Cure"
+        android:paddingStart="5dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/main_screen_thumb_image"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_thumb_image" />
+
+    <TextView
+        android:id="@+id/main_screen_txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/text_view_border"
+        android:gravity="center"
+        android:text="17/10/1991"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/main_screen_thumb_image"
+        app:layout_constraintEnd_toEndOf="@+id/main_screen_thumb_image"
+        app:layout_constraintStart_toStartOf="@+id/main_screen_thumb_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

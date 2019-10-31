@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="header_percent" type="integer" format="float">0.14637482</item>
+    <item name="details_header_percent" type="integer" format="float">0.34336525</item>
+    <item name="details_bottom_percent" type="integer" format="float">0.78112173</item>
+</resources>
