@@ -1,53 +1,51 @@
-<<<<<<< HEAD
-# TheMovieDBProject
-=======
-# Desafio Mobile - 2019
+# Desafio Android CI&T
 
-Bem Vindo ao desafio mobile da CI&T, por favor siga as instruções a baixo para realizar o desafio 😀.
+**Primeiro dia - 28/10: (4 horas)**
 
-## Instruções
+1. Definição da arquitetura MVVM. (0:30m)
+2. Desenvolvimento dos elementos de UI. (1:00h)
+3. Desenvolvimento dos efeito nos botões upcoming/popular. (0:30m)
+4. Desenvolvimento de um shape para trocar a cor de fundo dos botões quando um deles é selecionado.
+5. Desenvolvimento do adapter e recyclerview para carregar a lista de itens que vai ser carregada com o Retrofit. (2:00h)
 
-- Faça um fork desse repositório e crie sua solução para iOS ou Android;
-- Ao terminar a solução realize um Pull Request;
-- Comente no readme do repositório os métodos utilizados, tais como arquitetura, linguagem, soluções técnicas e etc.;
+**Segundo dia: 29/10 (6h)**
 
-## O App
+1. Configurar o MovieDB API dentro do projeto. (1h)
+2. Fazer o bind dos dados com o live data. (1h)
+3. Consumir os dados do MovieDB usando o retrofit. (4h)
 
-<img src="screenshots/ss01.png?raw=true" width="250"> <img src="screenshots/ss02.png?raw=true" width="250"> <img src="screenshots/ss03.png?raw=true" width="250">
+**Terceiro dia: 30/10 (4h)**
 
-#### Filmes Populares
+1.	Modificar os layouts para funcionar em portrait/landscape, como os itens estavam ancorados em um guideline foi apenas criar uma porcentagem para landscape e outra para portrait. (1h)
+2.	Consumir a lista de atores que foi inserida em uma recycleview horizontal dentro da activity de movie details. (2h)
+3.	Testar o aplicativo em diversos dispositivos com tamanhos de telas difentes. (1h)
 
-Como usuário, gostaria de ver a lista de de filmes mais populares em cartaz nos cinemas. Os itens dessa lista deverão conter:
- - O banner do filme;
- - O nome do filme;
- - A data de estreia;
+**Quarto dia: 31/10 (5h)**
 
-#### Em Breve
+1.	Implementar os testes de integração utilizando o espresso.  (2h)
+2.	Setar um placeholder para a recycler view dos atores pois alguns não tem foto. (0:30m)
+3.	Checar a conexão com a internet e disparar os erros. (1h:30m)
+4.  Desenvolvimento do Swipe to refresh para atualizar a review quando faltar conexão (1h)
 
-Como usuário, gostária de conseguir filtrar a lista de filmes populares para que agora mostre os filmes que entrarão em cartaz em breve:
- - O Filtro deverá ser aplicado na lista já existente, implementada na task anterior
+**Técnologias Utilizadas**
 
-#### Detalhes do filme
+1. Kotlin
+2. MVVM
+3. Retrofit
+4. RX
+5. Livedata 
+6. Constraint layout
+7. Espresso
 
-Como usuário, ao selecionar um item da lista, gostaria de ver os detalhes do filme:
- - Uma imagem em alta resolução;
- - Nome do filme
- - Generos do filme
- - Ano de estreia
- - Duração
- - Elenco principal 
- - Sinópse
- 
-## Requisitos
- - O app deve ser desenvolvido para suportar as orientação Portrait e Landscape
- - Seja criativo, as imagens de referência são apenas exemplos, você pode criar seu próprio layout
- - Use libs e frameworks que você estiver mais acostumado
- - Teste o seu código ;D
- - Utilize a The Movie Database para realizar as consultas 
- -- TMDB (https://www.themoviedb.org)
- -- API (https://www.themoviedb.org/documentation/api)
- 
-# BOA SORTE!
- 
- 
->>>>>>> d8c7c7f4fd36bb88cf6f09a5d43c003132188799
+Android: :rocket:
+
+------------------------------------------------------------------------------------------------------------
+Não tenho muita experiência com testes em produção devido a pouca utlização desses
+recursos no projeto onde trabalho atualmente. Concordo que é imprescindível a criação 
+de testes unitários e de integração nos projetos Android. Gostaria muito de trabalhar
+em um projeto onde fosse adotado o TDD para entender como ele funciona em um
+ambiente de produção.
+
+Obrigado pela oportunidade, foi muito legal fazer esse projeto. :pray:
+
+Sérgio.
