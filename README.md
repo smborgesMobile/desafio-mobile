@@ -40,12 +40,3 @@
 Android: :rocket:
 
 ------------------------------------------------------------------------------------------------------------
-Não tenho muita experiência com testes em produção devido a pouca utlização desses
-recursos no projeto onde trabalho atualmente. Concordo que é imprescindível a criação 
-de testes unitários e de integração nos projetos Android. Gostaria muito de trabalhar
-em um projeto onde fosse adotado o TDD para entender como ele funciona em um
-ambiente de produção.
-
-Obrigado pela oportunidade, foi muito legal fazer esse projeto. :pray:
-
-Sérgio.
